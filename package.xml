@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>MageColColombiaRegiones</name>
+    <version>0.0.1</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">Open Software Licence (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Esta extensi&#xF3;n agrega las regiones/departamentos de Colombia a tu tienda Magento.</summary>
+    <description>Esta extensi&#xF3;n agrega las regiones/departamentos de Colombia a tu tienda Magento.</description>
+    <notes>Firs Release</notes>
+    <authors><author><name>Luis F. G&#xF3;mez</name><user>Fahrenheit22</user><email>lgomez@magecolombia.com</email></author><author><name>Matthew Campbell</name><user>MageAus</user><email>mcampbell@mageaustralia.com.au</email></author></authors>
+    <date>2012-07-24</date>
+    <time>03:33:36</time>
+    <contents><target name="magecommunity"><dir name="MageCol"><dir name="ColombiaRegiones"><dir name="etc"><file name="config.xml" hash="4f5ff4e50bdc12d6032d2299a386ef0b"/></dir><dir name="sql"><dir name="colombiaregiones_setup"><file name="mysql4-install-0.1.0.php" hash="9fa662d78bac5c10f253847104aab44a"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="MageCol_ColombiaRegiones.xml" hash="70097c3de1bd75be51b137c0ad824754"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>5.8.0</max></php></required></dependencies>
+</package>

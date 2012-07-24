@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <MageCol_ColombiaRegiones>
+            <version>0.2.0</version>
+        </MageCol_ColombiaRegiones>
+    </modules>
+    <global>
+        <resources>
+            <colombiaregiones_setup>
+                <setup>
+                    <module>MageCol_ColombiaRegiones</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </colombiaregiones_setup>
+            <colombiaregiones_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </colombiaregiones_write>
+            <colombiaregiones_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </colombiaregiones_read>
+        </resources>
+    </global>
+</config>

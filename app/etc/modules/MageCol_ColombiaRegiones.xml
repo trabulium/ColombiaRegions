@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <MageCol_ColombiaRegiones>
+            <active>true</active>
+            <codePool>community</codePool>
+        </MageCol_ColombiaRegiones>
+    </modules>
+</config> 
